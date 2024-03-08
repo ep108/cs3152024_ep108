@@ -76,7 +76,6 @@ def check_exists(date):
 
 
 if __name__ == "__main__":
-    print('hello!!!')
     date = sys.argv[1]
     key = '1DFmIMxxqdYl8wJBPqAFxtHkimk86Qtn'
     filename = f'{date}-articles.csv' 
