@@ -76,7 +76,7 @@ def check_exists(date):
 
 
 if __name__ == "__main__":
-    print('hello!!!')
+    print('Creating cleaned articles csv files using NYT API')
     date = sys.argv[1]
     key = '1DFmIMxxqdYl8wJBPqAFxtHkimk86Qtn'
     filename = f'{date}-articles.csv' 
@@ -92,6 +92,6 @@ if __name__ == "__main__":
     df = pd.read_csv(filename) # load csv into df
     filtered = df['pub_date'].str.contains(date) # filters articles by date
     print(len(filtered))
-    
+
 
     
