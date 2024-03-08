@@ -92,6 +92,10 @@ if __name__ == "__main__":
     df = pd.read_csv(filename) # load csv into df
     filtered = df['pub_date'].str.contains(date) # filters articles by date
     print(len(filtered))
+    
+
+    
+
 
 
     
